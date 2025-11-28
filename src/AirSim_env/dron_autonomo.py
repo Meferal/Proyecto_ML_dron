@@ -15,7 +15,7 @@ import airsim
 from controller import DroneController
 
 # --- CONFIGURACIÓN ---
-TARGET_CLASS = 2    # Autobus
+TARGET_CLASS = 1    # Ambulancia
 FLIGHT_ALTITUDE = -2.5
 CAMERA_NAME = "0"
 
