@@ -148,7 +148,7 @@ Actualización del merged.yaml con clases finales y rutas.
 | **Orientación** | ✅ | Rotación automática hacia el vector de velocidad. |
 | **Visión (YOLO11)** | ✅ | Entrenamiento completado y validado. |
 | **Inferencia** | ✅ | Detección en tiempo real sobre ventana de AirSim. |
-| **Evitación de Obstáculos** | 🔄 | En desarrollo (lógica reactiva basada en Depth). |
+| **Evitación de Obstáculos** | ✅ | Lógica reactiva basada en Depth. |
 | **Sim-to-Real** | 🔜 | Pruebas planificadas en hardware físico. |
 
 ## 🧑‍💻 Autores
