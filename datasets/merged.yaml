@@ -1,0 +1,49 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: 
+  0: Coche
+  1: Ambulancia
+  2: Autobus
+  3: Ciclista
+  4: Camion
+  5: Persona
+  6: Animal
+  7: Casa
+  8: Arbol
+  9: Arbustos
+  10: Linea_tension
+  11: Señal_trafico
+  12: Luz_trafico
+
+
+# Combinacion de los siguientes datasets de roboflow
+roboflow:
+  workspace: uczelnia
+  project: airsim-z2xqd
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uczelnia/airsim-z2xqd/dataset/3
+
+roboflow:
+  workspace: airsim-car-yolo-model
+  project: car-detection-yolo-jw0hn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/airsim-car-yolo-model/car-detection-yolo-jw0hn/dataset/3
+
+roboflow:
+  workspace: harshsomaiya
+  project: dronefinalyear
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/harshsomaiya/dronefinalyear/dataset/1
+
+roboflow:
+  workspace: airsim-yolo
+  project: my-first-project-gmeis
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/airsim-yolo/my-first-project-gmeis/dataset/2

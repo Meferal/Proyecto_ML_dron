@@ -1,0 +1,29 @@
+# --- Python General ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# --- Visual Studio Code ---
+# Configuraciones específicas de usuario que no deben compartirse
+.vscode/
+*.code-workspace
+
+# --- Windows ---
+# Archivos de metadatos del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- YOLO11 / Machine Learning ---
+# La carpeta donde YOLO guarda los resultados de los entrenamientos/predicciones
+runs/
+
+# --- Jupyter Notebooks ---
+# Puntos de control (checkpoints) automáticos
+.ipynb_checkpoints/
+
+# --- Variables de entorno ---
+# Archivos que suelen contener claves API o secretos (IMPORTANTE)
+.env
