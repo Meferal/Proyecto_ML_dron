@@ -55,6 +55,7 @@ El objetivo es desarrollar un dron capaz de:
 │   ├── 📂 YOLO_env           # Scripts de entrenamiento e inferencia
 │   ├── 📂 obs                # Versiones anteriores de los scripts
 │   ├── 📂 pruebas            # Scripts de testeo unitario
+│   ├── 📂 Entrenamiento_YOLO # Scripts de entrenamiento YOLO en Google Colab
 │   └── 📂 utils              # Herramientas auxiliares
 ├── 📂 venv/                  # Archivos de configuración de entornos Conda
 │   ├── environment_airsim.yml
@@ -92,6 +93,15 @@ Encargado del entrenamiento e inferencia con YOLO11.
 conda env create -f venv/environment_drone_yolo.yml
 conda activate drone_yolo
 ```
+
+---
+
+Para ejecutar el programa es necesario:  
+1. Abrir el entorno Airsim  
+2. Ejecutar el archivo yolo_detector.py ubicado en src/YOLO_env en entorno YOLO  
+3. Ejecutar el archivo dron_autonomo.py ubicado en src/AirSim_env en entorno AirSim  
+
+---
 
 ## 📊 4. Datos y Entrenamiento
 
@@ -147,7 +157,7 @@ Actualización del merged.yaml con clases finales y rutas.
 | **Orientación** | ✅ | Rotación automática hacia el vector de velocidad. |
 | **Visión (YOLO11)** | ✅ | Entrenamiento completado y validado. |
 | **Inferencia** | ✅ | Detección en tiempo real sobre ventana de AirSim. |
-| **Evitación de Obstáculos** | 🔄 | En desarrollo (lógica reactiva basada en Depth). |
+| **Evitación de Obstáculos** | ✅ | Lógica reactiva basada en Depth. |
 | **Sim-to-Real** | 🔜 | Pruebas planificadas en hardware físico. |
 
 ## 🧑‍💻 Autores
