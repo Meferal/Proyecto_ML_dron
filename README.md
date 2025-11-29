@@ -12,7 +12,7 @@
 
 **Sistema integral de simulación, navegación autónoma y visión por computador.**
 
-[Ver Documentación](./docs/) • [Reportar Bug](https://github.com/Meferal/tu-repo/issues) • [Solicitar Feature](https://github.com/Meferal/tu-repo/issues)
+[Ver Documentación](./docs/) • [Reportar Bug](https://github.com/Meferal/Proyecto_ML_dron/issues/new?labels=bug) • [Solicitar Feature](https://github.com/Meferal/Proyecto_ML_dron/issues/new?labels=enhancement)
 
 </div>
 
